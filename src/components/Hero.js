@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import BgImg from '../assets/bg-image.png'
-
+import {MdKeyboardArrowRight} from 'react-icons/md'
 
 const Section = styled.section`
   background-image: url(${BgImg});
@@ -68,7 +68,7 @@ const Hero = () => {
           </Desc>
           <Button href='#' target='_blank'>
             <span>Claim your free stocks now</span>
-            {/* <MdKeyboardArrowRight /> */}
+            <MdKeyboardArrowRight />
           </Button>
         </Left>
       </Content>
